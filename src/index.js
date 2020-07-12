@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 
-app.engine('pug', require('pug').__express)
+//app.engine('pug', require('pug').__express)
 app.set('view engine', 'pug')
 app.set('views', './views')
 
