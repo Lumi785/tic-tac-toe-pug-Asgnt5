@@ -9,8 +9,12 @@ html
   body
     p1 My Game
     p2 #{game_name}
-    caption
     table(id='board')
+
+    form(action='/', method='GET')  
+      input(type='submit', value='Restart')
+
+    
     
     script(src="js/script.js")
     
